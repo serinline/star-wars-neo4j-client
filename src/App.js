@@ -18,7 +18,7 @@ const App = () => {
 
           <div>
               <BrowserRouter>
-                <nav id="navigation" className="navbar navbar-expand">
+                <nav id="navigation">
                   <li>
                       <Link to={"/home"} className="nav-link"> Home </Link>
                   </li>
@@ -34,6 +34,7 @@ const App = () => {
                 <Route exact path={["/", "/home"]} component={Home} />
                 <Route exact path="/characters" component={Entities} />
                 <Route exact path="/episodes" component={Episodes} />
+              <div id="indicator"/>
               </BrowserRouter>
 
               <Play />

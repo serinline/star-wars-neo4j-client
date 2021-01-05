@@ -1,9 +1,9 @@
 .volume {
     background: transparent;
     border: 0;
-    bottom: 10px;
+    bottom: 300px;
     cursor: pointer;
-    left: 10px;
+    left: 120px;
     position: absolute;
     z-index: 1000;
 }
