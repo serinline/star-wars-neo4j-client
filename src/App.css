@@ -6,16 +6,14 @@ body{
   background-image: url("images/star-wars-backgrounds-25.jpg")
 }
 
-nav
-{
+nav {
   position: absolute;
-  top: 20%;
+  top: 50%;
   right: 0;
   left: 0;
   width: 319px;
   display: table;
-  /*margin: 0 auto;*/
-  /*transform: translateY(-50%);*/
+  z-index: 300;
 }
 
 a.nav-link{
