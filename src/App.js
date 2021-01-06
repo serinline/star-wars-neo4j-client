@@ -1,12 +1,11 @@
 import { Link, BrowserRouter, Route} from "react-router-dom";
 
-import gsap from "gsap";
 import Home from "./components/Home";
 import Entities from "./components/Entities";
 import Episodes from "./components/Episodes";
 import Play from "./components/Play"
 import "./App.css";
-import React, { useEffect, useRef, useState }  from "react";
+import React from "react";
 
 
 

@@ -8,7 +8,6 @@ body{
 
 nav {
   position: absolute;
-  top: 50%;
   right: 0;
   left: 0;
   width: 319px;
@@ -74,11 +73,9 @@ nav .nav-link:nth-child(1):after
   position: absolute;
   left: 2%;
   bottom: 0;
-  /*width: 30px;*/
   height: 4px;
   background-color: #daff37;
   border-radius: 5px;
-  /*transition: 0.2s ease left;*/
 }
 
 nav .nav-link:hover
@@ -90,5 +87,7 @@ nav .nav-link:hover:before, nav .nav-link:hover:after
 {
   transform: scale(1);
 }
+
+
 
 

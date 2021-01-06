@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 
 import logo from "../images/1280px-Star_Wars_Logo.svg (1).png";
 
@@ -51,6 +51,9 @@ function Home() {
                     </p>
                     <p>
                         After hours of coding finally it's awake!
+                    </p>
+                    <p>
+                        All content have been done by Anna Malik.
                     </p>
 
                 </div>
